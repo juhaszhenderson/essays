@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Update
+title: Le Petit Prince
 date: 2016-02-15
 ---
 
