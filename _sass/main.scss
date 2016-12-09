@@ -1,5 +1,5 @@
 body {
-  font-family: 'Usual', sans-serif;
+  font-family: 'Karla', sans-serif;
   padding: 20px;
   margin: 0;
   font-weight: 400;
@@ -281,18 +281,9 @@ article {
     margin: 30px 0;
   }
   p {
-    font-size: 14px;
-    line-height: 1.4em;
+    font-size: 15px;
+    line-height: 1.9em;
     word-wrap: break-word;
-    font-weight: 600;
-    margin-bottom: 17.5px;
-  }
-  p:first-of-type {
-    font-size: 18px;
-    line-height: 1.4em;
-    word-wrap: break-word;
-    font-weight: 600;
-    margin-bottom: 30px;
   }
   .footnote {
     border: 0;
@@ -333,7 +324,6 @@ article {
   max-width: 500px;
   margin: 0 auto;
   font-size: 0.8rem;
-  font-weight: 600;
 }
 .page-navigation {
   margin: 50px auto 0 auto;
@@ -375,7 +365,6 @@ section {
         border: 0;
         color: #000;
         box-sizing: border-box;
-        font-weight: 600;
       }
       .post-date {
         float: right;
@@ -386,15 +375,11 @@ section {
         color: #757575;
         letter-spacing: 1px;
         text-transform: uppercase;
-        font-weight: normal;
-        font-size: 12px;
       }
       @media (min-width: 992px) {a {
           border-bottom: 2px solid transparent;
           &:hover {
             border-color: #000;
-            border-width: 2px;
-            padding-bottom: 1px;
           }
         }
       }
