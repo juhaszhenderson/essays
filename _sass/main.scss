@@ -1,8 +1,9 @@
 body {
-  font-family: 'Karla', sans-serif;
+  background-color: black;
+  color: white;
+  font-family: 'Courier New', 'Roboto Mono', 'PT Mono', monospace;
   padding: 20px;
   margin: 0;
-  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   @media (min-width: 992px) {
@@ -19,9 +20,9 @@ img {
   max-width: 100%;
 }
 a {
-  color: inherit;
+  color: white;
   text-decoration: none;
-  border-bottom: 1px solid #e2e2e2;
+  cursor: alias;
   &.image {
     display: block;
     text-align: center;
@@ -31,9 +32,7 @@ a {
   }
 }
 a:hover {
-  color: inherit;
   text-decoration: none;
-  border-bottom: 1px solid #555;
 }
 mark {
   background: #fffc76;
@@ -46,7 +45,7 @@ blockquote {
   background: #eee;
 }
 span[data-note] {
-  font-size: .8em;
+  font-size: .5em;
   background: #c1c1c1;
   color: #fff;
   font-weight: 700;
@@ -259,18 +258,20 @@ iframe {
 article {
   max-width: 500px;
   margin: 0 auto;
+  padding-top: 20vh;
   .title {
-    line-height: 1.4em;
-    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
   }
-  .divider {
+  /*.divider {
     background: #ddd;
     background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0)),color-stop(#ccc),to(rgba(255,255,255,0)));
     background: -webkit-linear-gradient(left,rgba(255,255,255,0),#ccc,rgba(255,255,255,0));
     background: linear-gradient(to right,rgba(255,255,255,0),#ccc,rgba(255,255,255,0));
     height: 1px;
     margin: 2em 0;
-  }
+  }*/
   .center {
     text-align: center;
     margin: 0 auto;
@@ -282,7 +283,6 @@ article {
   }
   p {
     font-size: 15px;
-    line-height: 1.9em;
     word-wrap: break-word;
   }
   .footnote {
@@ -347,6 +347,8 @@ article {
 section {
   max-width: 500px;
   margin: 0 auto 50px auto;
+  padding-top: 5vh;
+  color: white;
   ul {
     list-style: none;
     margin: 0;
@@ -363,7 +365,6 @@ section {
       a {
         text-decoration: none;
         border: 0;
-        color: #000;
         box-sizing: border-box;
       }
       .post-date {

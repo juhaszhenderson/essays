@@ -3,10 +3,39 @@ layout: default
 ---
 
 <section>
+		<p>Matt Henderson</p>
+		<div class="title">I love building useful products &amp; growing companies. I've been a full-time entrepreneur since I was 16 &amp; homeless in Montana. I've worked on projects in the consumer tech, SAAS, agency, VC, music, fashion, and manufacturing spaces since.</div>
+		<p>I've been obsessed with selling things and consumer psychology since early elementary school. I've been designing, writing, and building everything from art and books to products and companies ever since.</p>
+		<p>&nbsp;</p>
+
+		<div class="title">Some Projects:</div>
+
+		<ul>
+			<li>
+				<div class="title">
+					<a href="http://www.vonhughes.com" target="blank">von Hughes;</a>&nbsp;
+					<a href="https://medium.com/the-mission/how-we-hacked-the-media-and-landed-six-figure-contracts-in-four-days-96ea4aca4eef#.yr5ffw61j" target="blank">Rumblr;</a>&nbsp;
+					<a href="mailto:m@matthenderson.co" target="blank">*ANON* Ask me about this;</a>&nbsp;
+					<a href="https://www.producthunt.com/posts/extensions-af" target="blank">Extensions.af;</a>&nbsp;
+					<a>Juh&aacute;sz &amp; Associates;</a>&nbsp;
+					<a href="http://www.vh-records.com" target="blank">Boy Booty;</a>&nbsp;
+					<a href="http://www.vh-records.com" target="blank">vH RECORDS;</a>&nbsp;
+					<a href="http://www.vh-creative.com" target="blank">vH CREATIVE;</a>&nbsp;
+					<a href="http://www.huffingtonpost.com/julia-schemmer/a-passionate-youth-meet-m_b_4946391.html" target="blank">Amour Fraternel Apparel;</a>&nbsp;
+					<a>[consumer education company];</a>&nbsp;
+					<a>[supply chain saas product];</a>&nbsp;
+					<a>[niche community product];</a>&nbsp;
+
+				</div>
+			</li>
+		</ul>
+
+		<p>&nbsp;</p>
+		<div class="title">Writing:</div>
 
 		{% for post in site.posts %}
 		{% unless post.next %}
-			<h3>Essays</h3>
+			<!--<h3>Essays</h3>-->
 		{% else %}
 			{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
 			{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
@@ -17,9 +46,9 @@ layout: default
 
 		<ul>
 			<li>
-				<div class="post-date">
+				<!--<div class="post-date">
 					<span>{{ post.date | date: "%b %d" }}</span>
-				</div>
+				</div>-->
 				<div class="title">
 					<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 				</div>
@@ -31,10 +60,9 @@ layout: default
 		<ul>
 			<li>
 				<div class="post-date">
-					<span>FEB 29</span>
 				</div>
 				<div class="title">
-					<a href="https://medium.com/the-mission/how-trump-and-kanye-are-hacking-the-media-85f43ea6ae17#.qx02rn4ut" target="blank">How Trump and Kanye Are Hacking the Media*</a>
+					<a href="https://medium.com/the-mission/how-trump-and-kanye-are-hacking-the-media-85f43ea6ae17#.qx02rn4ut" target="blank">How Trump and Kanye Are Hacking the Media</a>
 				</div>
 			</li>
 		</ul>
@@ -42,17 +70,18 @@ layout: default
 		<ul>
 			<li>
 				<div class="post-date">
-					<span>JAN 21</span>
 				</div>
 				<div class="title">
-					<a href="https://medium.com/the-mission/how-we-hacked-the-media-and-landed-six-figure-contracts-in-four-days-96ea4aca4eef#.yr5ffw61j" target="blank">How We Hacked the Media and Landed Six-Figure Contracts in Four Days*</a>
+					<a href="https://medium.com/the-mission/how-we-hacked-the-media-and-landed-six-figure-contracts-in-four-days-96ea4aca4eef#.yr5ffw61j" target="blank">How We Hacked the Media and Landed Six-Figure Contracts in Four Days</a>
 				</div>
 			</li>
 		</ul>
 
 <!-- Footer footnote -->
-	<div class="footer">
+	<!--<div class="footer">
 		<span id="asterick">*Not an essay, or published elsewhere</span>
-	</div>
+	</div>-->
+	<p>&nbsp;</p>
+	<span class="block">&copy; {{ site.time | date: '%Y' }} <a href="mailto:m@matthenderson.co" style="color:white;">{{ site.author_name }}</a></span>
 
 </section>
