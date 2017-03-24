@@ -9,6 +9,8 @@ body {
   @media (min-width: 992px) {
     padding: 35px 50px;
   }
+  span.no-link {
+  }
 }
 h2,
 h3,
@@ -372,10 +374,9 @@ section {
         margin: 0 0 0 20px;
       }
       span {
-        display: inline-block;
-        color: #757575;
+        display: inline;
         letter-spacing: 1px;
-        text-transform: uppercase;
+        opacity: .55;
       }
       @media (min-width: 992px) {a {
           border-bottom: 2px solid transparent;
