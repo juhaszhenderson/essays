@@ -50,6 +50,21 @@ a {
   text-decoration: none;
 }
 
+@media screen and (max-width: 400px) {
+  .image {
+    float: right;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 0px;
+  }
+}
+
+img {
+  border-radius: 5px;
+}
+
 
 
 
