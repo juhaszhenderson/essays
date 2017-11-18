@@ -9,4 +9,8 @@
 <url>
 <loc>http://localhost:4000/</loc>
 </url>
+<url>
+<loc>http://localhost:4000/new.html</loc>
+<lastmod>2017-11-18T15:26:45-05:00</lastmod>
+</url>
 </urlset>

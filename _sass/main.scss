@@ -1,7 +1,72 @@
+section {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  width: 250px;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 16x;
+  font-family: apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 0px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  font-family: apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  margin-top: 10px;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 20px;
+  font-family: apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 0px;
+}
+
+.exp {
+  font-weight: normal;
+  font-size: 14px;
+  font-family: apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/*
 body {
-  background-color: black;
+  background-color: white;
   color: white;
-  font-family: 'Courier New', 'Roboto Mono', 'PT Mono', monospace;
+  font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
   padding: 20px;
   margin: 0px;
   -webkit-font-smoothing: antialiased;
@@ -10,6 +75,7 @@ body {
     padding: 35px 50px;
   }
   span.no-link {
+    opacity: 100;
   }
 }
 h2,
@@ -21,19 +87,33 @@ h5 {
 img {
   max-width: 100%;
 }
+.title-0 {
+  font-size: 18px;
+  font-weight: medium;
+  padding-bottom: 10px;
+}
+.title-1 {
+  font-size: 16px;
+  font-weight: medium;
+}
+.title-2 {
+  font-size: 20px;
+  font-weight: bold;
+}
 a {
-  color: white;
+  color: black;
   text-decoration: none;
+  font-weight: bold;
   cursor: alias;
   &.image {
     display: block;
     text-align: center;
     border: 0;
-    border-radius: 5px;
     margin: 30px 0;
   }
 }
 a:hover {
+  font-weight: bold;
   text-decoration: none;
 }
 mark {
@@ -264,7 +344,6 @@ article {
   .title {
     font-size: 15px;
     font-weight: normal;
-    color: white;
   }
   /*.divider {
     background: #ddd;
@@ -273,7 +352,7 @@ article {
     background: linear-gradient(to right,rgba(255,255,255,0),#ccc,rgba(255,255,255,0));
     height: 1px;
     margin: 2em 0;
-  }*/
+  }*/ /*
   .center {
     text-align: center;
     margin: 0 auto;
@@ -343,14 +422,13 @@ article {
   color: #777;
   a {
     border: none;
-    font-weight: bold;
   }
 }
 section {
   max-width: 500px;
   margin: 0 auto 50px auto;
   padding-top: 5vh;
-  color: white;
+  color: black;
   ul {
     list-style: none;
     margin: 0;
@@ -424,3 +502,4 @@ section {
     -webkit-transform: none;
   }
 }
+*/
