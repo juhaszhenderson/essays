@@ -53,16 +53,16 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  cursor: url('../assets/elon.png'), default;
+}
+
 a:active {
   color: blue;
 }
 
 a:visited {
   color: blue;
-}
-
-#clothing:hover {
-  cursor: url('../assets/elon.png'), default;
 }
 
 @media screen and (max-height: 400px) {
