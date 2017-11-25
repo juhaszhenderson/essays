@@ -61,8 +61,8 @@ a:visited {
   color: blue;
 }
 
-#clothing {
-  cursor: url('/assets/elon.png'), default;
+#clothing:hover {
+  cursor: url('../assets/elon.png'), default;
 }
 
 @media screen and (max-height: 400px) {
