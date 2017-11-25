@@ -47,10 +47,21 @@ h2 {
     "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
   margin-top: 10px;
+  a:hover {
+    cursor: url('../assets/tv.png'), auto;
+  }
 }
 
 a {
   text-decoration: none;
+}
+
+#montana:hover {
+  cursor: url('../assets/mountain.png'), auto;
+}
+
+#mail:hover {
+  cursor: url('../assets/mail.png'), auto;
 }
 
 #shirt:hover {
