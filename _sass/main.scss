@@ -57,11 +57,13 @@ a:active {
   color: blue;
 }
 
+
+
 a:visited {
   color: blue;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-height: 400px) {
   .image {
     float: right;
     margin-left: 20px;
