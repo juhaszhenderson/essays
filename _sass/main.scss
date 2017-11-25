@@ -54,7 +54,11 @@ a {
 }
 
 a:hover {
-  font-weight: medium;
+  font-weight: 400;
+}
+
+a:active {
+  color: blue;
 }
 
 a:visited {
