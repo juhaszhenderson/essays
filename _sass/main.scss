@@ -57,10 +57,12 @@ a:active {
   color: blue;
 }
 
-
-
 a:visited {
   color: blue;
+}
+
+#clothing {
+  cursor: url('/assets/elon.png'), default;
 }
 
 @media screen and (max-height: 400px) {
