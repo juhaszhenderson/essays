@@ -58,6 +58,10 @@ a:hover {
   font-weight: bold;
 }
 
+a:visited {
+  color: #5FA0FF;
+}
+
 @media screen and (max-width: 400px) {
   .image {
     float: right;
